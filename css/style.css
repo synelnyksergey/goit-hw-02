@@ -1,0 +1,22 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Roboto", "sans-serif";
+}
+
+/* .section {
+  padding: 94px 0;
+}
+
+.container {
+  width: 1200;
+  padding: 0 15px;
+  border: 1px solid red;
+  margin: 0 auto;
+} */
