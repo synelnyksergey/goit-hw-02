@@ -117,30 +117,55 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+
 /* section-team */
+
 .section-team {
   background-color: var(--bgc-dark);
 }
 .section-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--prymary-text-color);
+}
+.title-team {
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  /* color: var(--secondary-text-color; */
 }
+
 /* footer */
 .footer {
   background-color: #2f303a;
+  font-family: inherit;
+  font-style: normal;
 }
 
 /* addres */
 
 .addres {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--white-text-color);
 }
 
 .address-contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
