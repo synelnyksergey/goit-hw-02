@@ -86,7 +86,7 @@ body {
   text-transform: uppercase;
 }
 
-/* button */
+/* button index.html*/
 .button {
   font-family: inherit;
   background-color: var(--accent-color);
@@ -172,4 +172,20 @@ body {
 .address-contact:hover,
 .address-contact:focus {
   color: var(--accent-color);
+}
+
+/* portfolio */
+
+/* btn portfolio*/
+
+.btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
