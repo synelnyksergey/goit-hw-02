@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --bgc-dark: #2f303a;
   --white-text-color: #ffffff;
+  --bgc--btn: #f5f4fa;
 }
 /* ======
 цвет основной текста серый color: #757575;
@@ -136,7 +137,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.03em;
 }
 
@@ -186,6 +187,34 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #212121;
+  background-color: var(--bgc--btn);
+}
+
+.btn:focus,
+.btn:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+
+/* project */
+
+.title-project {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.text-project {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* portfolio curent */
+
+.site-nav .link.current {
+  color: var(--accent-color);
 }
